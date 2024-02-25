@@ -1,0 +1,73 @@
+.RelatedDeals_container {
+
+
+    .items{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        
+        grid-gap: 30px;
+
+    .row {
+
+        background-color: #FFFFFF   ;
+        border-radius: 12px;
+        padding: 20px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 333px;
+        
+
+        .img{
+            
+            align-self: center;
+        }
+        .container_1 {
+            padding: 5px;
+            display: flex;
+            gap: 8px;
+            h2{
+                align-self: center;
+            }
+            flex-direction: column;
+            .offers{
+                display: flex;
+                gap: 10px;
+            }
+
+            .offers>span{
+                background-color: #F2F4F7                ;
+                color: #074786 ; 
+                padding: 2px 8px;
+                border-radius: 8px;
+
+            }
+            .cash{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+            }
+           .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button{
+                padding: 10px;
+                border-radius: 12px;
+                border: solid #1B88F4;
+                background-color: #1B88F4;
+                width: 80%;
+                color: white;
+            }
+           }
+        }
+    }
+}
+
+}

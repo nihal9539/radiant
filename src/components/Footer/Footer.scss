@@ -1,0 +1,25 @@
+.foot_container{
+    height: 452px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #212731;
+    
+    .footer_left{
+        
+        background-color: #212731;
+        width: 50%;
+
+        color: #B6BDC4 ;
+        display: flex; 
+        justify-content: center;
+       padding-top: 5rem;
+        gap: 3rem;
+
+        .footer_category{
+            line-height: 2em;
+            padding-top: 10px;            
+        }
+    }
+
+}

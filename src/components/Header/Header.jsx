@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Header.scss"
 import { IoSearch } from "react-icons/io5";
 import { PiTextAlignJustifyBold } from "react-icons/pi";
+import { Link } from 'react-scroll';
 
 
 
@@ -18,9 +19,9 @@ const Header = () => {
            
             <div className='head_items'>
                 <ul>
-                    <li><a href="">Categories</a></li>
-                    <li><a href="">Website Builders</a></li>
-                    <li><a href="">Today's deals</a></li>
+                    <li><a href=""><Link onClick={()=>setOpen(false)}>Categories</Link></a></li>
+                    <li><a href=""> <Link to='builders' onClick={()=>setOpen(false)} smooth={true}>Website Builders</Link> </a></li>
+                    <li><a ><Link onClick={()=>setOpen(false)} to='deals' smooth={true} href="">Today's deals</Link></a></li>
                 </ul>
 
             </div>

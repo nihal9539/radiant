@@ -67,6 +67,17 @@ h1 {
     .best_containers{
         padding: 2rem 2rem;
 
+        .update {
+
+            gap: 5px;
+
+            span{
+                font-size: 0.8rem;
+            }
+    
+    
+        }
+
         .items {
 
             margin-top: 2px;
